@@ -71,11 +71,7 @@ h3, h4{
     padding: 1rem 1rem;
 }
 .icon{
-    width: 30%;
-    height: 30%;
     color: dodgerblue;
-    position: relative;
-    left: 10rem;
 }
 
 .planning{
@@ -103,14 +99,12 @@ h3, h4{
 
 .arrow{
     background-color: blueviolet;
+    width: 2rem;
     border-radius: 5rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    width: 10%;
-    height: 10%;
     padding: 0.5rem;
     position: relative;
-    left: 13rem;
     bottom: 1rem;
 }
 
@@ -207,18 +201,54 @@ h3, h4{
 }
 .get-start{
     background-color: antiquewhite;
+    width: 7rem;
     color: blueviolet;
-    width: 30%;
     text-align: center;
     padding: 1rem;
     border-radius: 2rem;
-    position: relative;
-    left: 10rem;
 }
 
 footer{
-    background-color:black;
+    background-color: #222;
     color: white;
     text-align: center;
 }
+
+/* media query tablet */
+
+@media screen and (min-width: 800px) {
+    .get-demo{
+        display: flex;
+        justify-content: space-between;
+    }
+    .clean-code{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cards{
+        width: 33%;
+    }
+
+    .first-row{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .second-row{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .topics{
+        width: 49%;
+        flex-wrap: wrap;
+    }
+}
+
+
+/* media query desktop */
+
 
