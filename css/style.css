@@ -251,4 +251,43 @@ footer{
 
 /* media query desktop */
 
+@media screen and (min-width:1400px) {
+    .get-demo{
+        display: flex;
+        justify-content: space-between;
+    }
+    .clean-code{
+        display: flex;
+        justify-content: space-between;
+    }
 
+    .cards{
+        width: 33%;
+    }
+
+    .planning{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .develop{
+        margin-top: 3rem;
+        margin-bottom: 0;
+    }
+
+    .partner{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .first-row{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .second-row{
+        display: flex;
+        justify-content: space-between;
+    }
+}
