@@ -8,7 +8,7 @@
     font-family: sans-serif;
 }
 main, footer{
-    padding: 2rem 2rem;
+    padding: 0.5rem 0.5rem;
 }
 h2{
     margin-top: 1rem;
@@ -59,7 +59,7 @@ h3, h4{
     width: 40%;
     padding: 0.5rem;
     position: relative;
-    left: 7rem;
+    left: 8rem;
 }
 
 .cards{
@@ -75,7 +75,7 @@ h3, h4{
     height: 30%;
     color: dodgerblue;
     position: relative;
-    left: 8.5rem;
+    left: 10rem;
 }
 
 .planning{
@@ -110,7 +110,7 @@ h3, h4{
     height: 10%;
     padding: 0.5rem;
     position: relative;
-    left: 11rem;
+    left: 13rem;
     bottom: 1rem;
 }
 
@@ -187,3 +187,32 @@ h3, h4{
     width: 55%;
     padding: 1rem;
 }
+
+.start{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.start p{
+    color: darkseagreen;
+}
+.start h3{
+    color: white;
+}
+.start h2{
+    color: goldenrod;
+    font-size: 5rem;
+}
+.get-start{
+    background-color: antiquewhite;
+    color: blueviolet;
+    width: 30%;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    position: relative;
+    left: 10rem;
+}
+
