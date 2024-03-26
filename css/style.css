@@ -36,6 +36,10 @@ h3, h4{
     color: white;
     padding: 1rem 1rem;
 }
+.navbar img{
+    width: 50%;
+}
+
 
 .get-demo{
     padding: 1rem 1rem;
@@ -43,6 +47,10 @@ h3, h4{
     background-color: skyblue;
     border-radius: 1rem;
 }
+.get-demo img{
+    width: 55%;
+}
+
 
 .button{
     background-color: dodgerblue;
@@ -76,6 +84,10 @@ h3, h4{
     text-align: center;
     padding: 1rem;
 }
+.planning img{
+    width: 40%;
+}
+
 
 .develop{
     background-color: white;
@@ -84,6 +96,10 @@ h3, h4{
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+.develop img{
+    width: 40%;
+}
+
 
 .arrow{
     background-color: blueviolet;
@@ -106,6 +122,11 @@ h3, h4{
 .testimonial h3 {
     color: blueviolet;
 }
+.testimonial img{
+    width: 40%;
+    border-radius: 5rem;
+}
+
 
 .partner{
     background-color: blueviolet;
@@ -144,4 +165,25 @@ h3, h4{
     text-align: center;
     margin-top: 1rem;
     padding: 0.5rem;
+}
+
+.about-us{
+    background-color: white;
+    color: black;
+    text-align: start;
+}
+.about-us h3{
+    color: blueviolet;
+}
+.about-us img{
+    width: 40%;
+    border-radius: 5rem;
+}
+
+.linkedin{
+    background-color: blueviolet;
+    color: darkseagreen;
+    border-radius: 2rem;
+    width: 55%;
+    padding: 1rem;
 }
