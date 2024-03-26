@@ -216,3 +216,9 @@ h3, h4{
     left: 10rem;
 }
 
+footer{
+    background-color:black;
+    color: white;
+    text-align: center;
+}
+
